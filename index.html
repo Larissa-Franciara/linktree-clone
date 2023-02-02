@@ -21,37 +21,13 @@
   />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
-  <script>
-    window.addEventListener("DOMContentLoaded", ()=>{
-      VANTA.BIRDS({
-        el: "#vanta",
-        mouseControls: true,
-        touchControls: true,
-        gyroControls: false,
-        minHeight: 200.00,
-        minWidth: 200.00,
-        scale: 1.00,
-        scaleMobile: 1.00,
-        wingSpan: 40.00,
-        speedLimit: 8.00,
-        separation: 100.00,
-        alignment: 43.00,
-        quantity: 2.00,
-        backgroundAlpha:0.0,
-      })
-      setTimeout(()=>{
-      document.querySelector('main').style.opacity='1';
-      document.querySelector('main').style.filter='none';
-      },1000)
-    })
-  </script>
 </head>
 <body>
   <div id="vanta"></div>
   <main>
     <header>
-      <div class="header-content">       <img src="https://avatars.githubusercontent.com/u/84821104?v=4" alt="profile">
-      <h1 class="animate__animated animate__backInDown animate__delay-2s">@larissafranciara</h1>
+      <div class="header-content">      
+         <img src="https://avatars.githubusercontent.com/u/84821104?v=4" alt="profile">
     </header>
     <div id="center">
       <button class="btn">
@@ -74,7 +50,7 @@
       </button>
     </div>
     <div id="rest"></div>
-    <div id="footer"></div>
+    <div class="animate__animated animate__backInDown animate__delay-2s" id="footer"></div>
   </main>
   <script src="app.js"></script>
 </body>

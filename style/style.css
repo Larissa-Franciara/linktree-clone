@@ -1,14 +1,15 @@
-
-
-body{
+body {
   margin: 0;
   padding: 0;
-  font-family: 'Segoe UI', 'Open Sans', sans-serif;
-  background: linear-gradient(rgba(36, 115, 168, 0.654)20%, rgba(141, 141, 141, 0.1) );
+  font-family: "Segoe UI", "Open Sans", sans-serif;
+  background: linear-gradient(
+    rgba(36, 115, 168, 0.654) 20%,
+    rgba(141, 141, 141, 0.1)
+  );
   background-size: cover;
   background-position: center;
 }
-main{
+main {
   width: 100%;
   height: 100vh;
   overflow: hidden;
@@ -20,40 +21,27 @@ main{
   filter: blur(10px);
   transition: opacity 2s ease-in-out, filter 2s ease-in-out;
 }
-header{
+header {
   margin-top: 10em;
   z-index: 1;
 }
-h1 {
-  font-size: 0.9rem;
-  color: #fff;
-  margin-top: 15px;
-}
-header>h1{
-  font-size: medium;
-  text-align: center; 
-  font-weight: 400;
-  background: rgba(0, 0, 0, 0.75);
-  padding: 1px 15px 3px 15px;
-  border: 1px solid white;
-  border-radius: 15px;
-}
-#center{
+
+#center {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
 }
-#rest{
+#rest {
   flex: 1;
 }
-img{
+img {
   width: 120px;
   height: 120px;
   border-radius: 100%;
-  border: 1px solid rgba(36, 115, 168, 0.654);
+  border: 2px solid rgba(36, 115, 168, 0.654);
 }
-.btn{
+.btn {
   width: 85%;
   height: 45px;
   max-width: 350px;
@@ -66,10 +54,10 @@ img{
   border: 1px solid rgba(255, 255, 255, 0.3);
   transition: background-color 0.4s ease-in;
 }
-.btn:hover{
+.btn:hover {
   background-color: rgba(108, 163, 199, 0.42);
 }
-.btn>a{
+.btn > a {
   display: flex;
   width: 100%;
   height: 100%;
@@ -79,14 +67,23 @@ img{
   color: #000;
   font-size: 16px;
 }
-svg{
+svg {
   margin-right: 10px;
 }
-#vanta{
+#vanta {
   z-index: 0;
   position: absolute;
   left: 0;
   right: 0;
   width: 100%;
-  height: 100vh;     
+  height: 100vh;
+}
+#footer {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  color: #000;
+  font-size: 0.7rem;
+  margin-bottom: 20px;
+  font-weight: 400;
 }
