@@ -25,12 +25,13 @@ header{
   z-index: 1;
 }
 h1 {
-  font-size: 1.2rem;
+  font-size: 0.9rem;
+  color: #fff;
+  margin-top: 15px;
 }
 header>h1{
   font-size: medium;
-  text-align: center;
-  color: #fff;
+  text-align: center; 
   font-weight: 400;
   background: rgba(0, 0, 0, 0.75);
   padding: 1px 15px 3px 15px;
@@ -47,11 +48,10 @@ header>h1{
   flex: 1;
 }
 img{
-  width: 90px;
-  height: 90px;
+  width: 120px;
+  height: 120px;
   border-radius: 100%;
-  border: 1px solid white;
-  margin-left: 25%;
+  border: 1px solid rgba(36, 115, 168, 0.654);
 }
 .btn{
   width: 85%;
@@ -67,7 +67,7 @@ img{
   transition: background-color 0.4s ease-in;
 }
 .btn:hover{
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(108, 163, 199, 0.42);
 }
 .btn>a{
   display: flex;
